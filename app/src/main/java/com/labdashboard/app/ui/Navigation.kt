@@ -37,7 +37,7 @@ private val destinations = listOf(
 
 /** Width breakpoint above which we switch from a bottom bar to a side rail - covers tablets and landscape phones. */
 private const val WIDE_SCREEN_BREAKPOINT_DP = 600
-
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun LabDashboardApp(viewModel: LabViewModel) {
     val navController = rememberNavController()
