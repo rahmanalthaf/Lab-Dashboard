@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Simple bar-chart glyph representing the dashboard -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,70 h10 v18 h-10 z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M49,58 h10 v30 h-10 z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M64,42 h10 v46 h-10 z" />
+    <path
+        android:fillColor="#A5F3E6"
+        android:pathData="M30,88 h48 v6 h-48 z" />
+</vector>
