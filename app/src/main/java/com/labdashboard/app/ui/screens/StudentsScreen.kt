@@ -23,7 +23,7 @@ import kotlinx.coroutines.launch
 import java.util.Locale
 
 private enum class SortBy(val label: String) { NAME("Name"), ROLL("Roll No."), AVERAGE("Average") }
-
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun StudentsScreen(viewModel: LabViewModel, snackbarHostState: SnackbarHostState) {
     val students by viewModel.students.collectAsState()
